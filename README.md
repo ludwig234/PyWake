@@ -1,4 +1,5 @@
-# WakePy
+# PyWake
+
 A simple Python program that can wake up devices using Wake On Lan.
 
     usage: PyWake [-h] [-i INTERFACE] [-b] mac_address
