@@ -16,7 +16,7 @@ class MacLength(argparse.Action):
 
 parser = argparse.ArgumentParser(
     prog="PyWake",
-    description="Python program to wake a device using Wake On Lan",
+    description="A simple Python program that can wake up devices using Wake On Lan.",
 )
 parser.add_argument (
     "mac_address", help="MAC address of the device you wish to wake. ':' and '-' supported as separators", action=MacLength)
